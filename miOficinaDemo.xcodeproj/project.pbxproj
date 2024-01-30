@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1FFC5132B697E7A009A4BFF /* miOficinaDemo Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D1FFC5122B697E7A009A4BFF /* miOficinaDemo Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D1FFC5182B697E7A009A4BFF /* miOficinaDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC5172B697E7A009A4BFF /* miOficinaDemoApp.swift */; };
+		D1FFC51A2B697E7A009A4BFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC5192B697E7A009A4BFF /* ContentView.swift */; };
+		D1FFC51C2B697E7C009A4BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FFC51B2B697E7C009A4BFF /* Assets.xcassets */; };
+		D1FFC51F2B697E7C009A4BFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FFC51E2B697E7C009A4BFF /* Preview Assets.xcassets */; };
+		D1FFC5292B697E7C009A4BFF /* miOficinaDemo_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC5282B697E7C009A4BFF /* miOficinaDemo_Watch_AppTests.swift */; };
+		D1FFC5332B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC5322B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITests.swift */; };
+		D1FFC5352B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FFC5342B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1FFC5142B697E7A009A4BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FFC5062B697E7A009A4BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FFC5112B697E7A009A4BFF;
+			remoteInfo = "miOficinaDemo Watch App";
+		};
+		D1FFC5252B697E7C009A4BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FFC5062B697E7A009A4BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FFC5112B697E7A009A4BFF;
+			remoteInfo = "miOficinaDemo Watch App";
+		};
+		D1FFC52F2B697E7C009A4BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1FFC5062B697E7A009A4BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FFC5112B697E7A009A4BFF;
+			remoteInfo = "miOficinaDemo Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1FFC53B2B697E7C009A4BFF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D1FFC5132B697E7A009A4BFF /* miOficinaDemo Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1FFC50C2B697E7A009A4BFF /* miOficinaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miOficinaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFC5122B697E7A009A4BFF /* miOficinaDemo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "miOficinaDemo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFC5172B697E7A009A4BFF /* miOficinaDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miOficinaDemoApp.swift; sourceTree = "<group>"; };
+		D1FFC5192B697E7A009A4BFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1FFC51B2B697E7C009A4BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1FFC51E2B697E7C009A4BFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1FFC5242B697E7C009A4BFF /* miOficinaDemo Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miOficinaDemo Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFC5282B697E7C009A4BFF /* miOficinaDemo_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miOficinaDemo_Watch_AppTests.swift; sourceTree = "<group>"; };
+		D1FFC52E2B697E7C009A4BFF /* miOficinaDemo Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miOficinaDemo Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FFC5322B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miOficinaDemo_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		D1FFC5342B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miOficinaDemo_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1FFC50F2B697E7A009A4BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC5212B697E7C009A4BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC52B2B697E7C009A4BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1FFC5052B697E7A009A4BFF = {
+			isa = PBXGroup;
+			children = (
+				D1FFC5162B697E7A009A4BFF /* miOficinaDemo Watch App */,
+				D1FFC5272B697E7C009A4BFF /* miOficinaDemo Watch AppTests */,
+				D1FFC5312B697E7C009A4BFF /* miOficinaDemo Watch AppUITests */,
+				D1FFC50D2B697E7A009A4BFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1FFC50D2B697E7A009A4BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC50C2B697E7A009A4BFF /* miOficinaDemo.app */,
+				D1FFC5122B697E7A009A4BFF /* miOficinaDemo Watch App.app */,
+				D1FFC5242B697E7C009A4BFF /* miOficinaDemo Watch AppTests.xctest */,
+				D1FFC52E2B697E7C009A4BFF /* miOficinaDemo Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1FFC5162B697E7A009A4BFF /* miOficinaDemo Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC5172B697E7A009A4BFF /* miOficinaDemoApp.swift */,
+				D1FFC5192B697E7A009A4BFF /* ContentView.swift */,
+				D1FFC51B2B697E7C009A4BFF /* Assets.xcassets */,
+				D1FFC51D2B697E7C009A4BFF /* Preview Content */,
+			);
+			path = "miOficinaDemo Watch App";
+			sourceTree = "<group>";
+		};
+		D1FFC51D2B697E7C009A4BFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC51E2B697E7C009A4BFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1FFC5272B697E7C009A4BFF /* miOficinaDemo Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC5282B697E7C009A4BFF /* miOficinaDemo_Watch_AppTests.swift */,
+			);
+			path = "miOficinaDemo Watch AppTests";
+			sourceTree = "<group>";
+		};
+		D1FFC5312B697E7C009A4BFF /* miOficinaDemo Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFC5322B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITests.swift */,
+				D1FFC5342B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "miOficinaDemo Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1FFC50B2B697E7A009A4BFF /* miOficinaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFC53C2B697E7C009A4BFF /* Build configuration list for PBXNativeTarget "miOficinaDemo" */;
+			buildPhases = (
+				D1FFC50A2B697E7A009A4BFF /* Resources */,
+				D1FFC53B2B697E7C009A4BFF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FFC5152B697E7A009A4BFF /* PBXTargetDependency */,
+			);
+			name = miOficinaDemo;
+			productName = miOficinaDemo;
+			productReference = D1FFC50C2B697E7A009A4BFF /* miOficinaDemo.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D1FFC5112B697E7A009A4BFF /* miOficinaDemo Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFC5382B697E7C009A4BFF /* Build configuration list for PBXNativeTarget "miOficinaDemo Watch App" */;
+			buildPhases = (
+				D1FFC50E2B697E7A009A4BFF /* Sources */,
+				D1FFC50F2B697E7A009A4BFF /* Frameworks */,
+				D1FFC5102B697E7A009A4BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "miOficinaDemo Watch App";
+			productName = "miOficinaDemo Watch App";
+			productReference = D1FFC5122B697E7A009A4BFF /* miOficinaDemo Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1FFC5232B697E7C009A4BFF /* miOficinaDemo Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFC53F2B697E7C009A4BFF /* Build configuration list for PBXNativeTarget "miOficinaDemo Watch AppTests" */;
+			buildPhases = (
+				D1FFC5202B697E7C009A4BFF /* Sources */,
+				D1FFC5212B697E7C009A4BFF /* Frameworks */,
+				D1FFC5222B697E7C009A4BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FFC5262B697E7C009A4BFF /* PBXTargetDependency */,
+			);
+			name = "miOficinaDemo Watch AppTests";
+			productName = "miOficinaDemo Watch AppTests";
+			productReference = D1FFC5242B697E7C009A4BFF /* miOficinaDemo Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1FFC52D2B697E7C009A4BFF /* miOficinaDemo Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FFC5422B697E7C009A4BFF /* Build configuration list for PBXNativeTarget "miOficinaDemo Watch AppUITests" */;
+			buildPhases = (
+				D1FFC52A2B697E7C009A4BFF /* Sources */,
+				D1FFC52B2B697E7C009A4BFF /* Frameworks */,
+				D1FFC52C2B697E7C009A4BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1FFC5302B697E7C009A4BFF /* PBXTargetDependency */,
+			);
+			name = "miOficinaDemo Watch AppUITests";
+			productName = "miOficinaDemo Watch AppUITests";
+			productReference = D1FFC52E2B697E7C009A4BFF /* miOficinaDemo Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1FFC5062B697E7A009A4BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D1FFC50B2B697E7A009A4BFF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D1FFC5112B697E7A009A4BFF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D1FFC5232B697E7C009A4BFF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D1FFC5112B697E7A009A4BFF;
+					};
+					D1FFC52D2B697E7C009A4BFF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D1FFC5112B697E7A009A4BFF;
+					};
+				};
+			};
+			buildConfigurationList = D1FFC5092B697E7A009A4BFF /* Build configuration list for PBXProject "miOficinaDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1FFC5052B697E7A009A4BFF;
+			productRefGroup = D1FFC50D2B697E7A009A4BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FFC50B2B697E7A009A4BFF /* miOficinaDemo */,
+				D1FFC5112B697E7A009A4BFF /* miOficinaDemo Watch App */,
+				D1FFC5232B697E7C009A4BFF /* miOficinaDemo Watch AppTests */,
+				D1FFC52D2B697E7C009A4BFF /* miOficinaDemo Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1FFC50A2B697E7A009A4BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC5102B697E7A009A4BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFC51F2B697E7C009A4BFF /* Preview Assets.xcassets in Resources */,
+				D1FFC51C2B697E7C009A4BFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC5222B697E7C009A4BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC52C2B697E7C009A4BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1FFC50E2B697E7A009A4BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFC51A2B697E7A009A4BFF /* ContentView.swift in Sources */,
+				D1FFC5182B697E7A009A4BFF /* miOficinaDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC5202B697E7C009A4BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFC5292B697E7C009A4BFF /* miOficinaDemo_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FFC52A2B697E7C009A4BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FFC5332B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITests.swift in Sources */,
+				D1FFC5352B697E7C009A4BFF /* miOficinaDemo_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1FFC5152B697E7A009A4BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FFC5112B697E7A009A4BFF /* miOficinaDemo Watch App */;
+			targetProxy = D1FFC5142B697E7A009A4BFF /* PBXContainerItemProxy */;
+		};
+		D1FFC5262B697E7C009A4BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FFC5112B697E7A009A4BFF /* miOficinaDemo Watch App */;
+			targetProxy = D1FFC5252B697E7C009A4BFF /* PBXContainerItemProxy */;
+		};
+		D1FFC5302B697E7C009A4BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1FFC5112B697E7A009A4BFF /* miOficinaDemo Watch App */;
+			targetProxy = D1FFC52F2B697E7C009A4BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1FFC5362B697E7C009A4BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1FFC5372B697E7C009A4BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D1FFC5392B697E7C009A4BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"miOficinaDemo Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = DSDDU4P37Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = miOficinaDemo;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = concredito.miOficinaDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D1FFC53A2B697E7C009A4BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"miOficinaDemo Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = DSDDU4P37Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = miOficinaDemo;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = concredito.miOficinaDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		D1FFC53D2B697E7C009A4BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDDU4P37Z;
+				INFOPLIST_KEY_CFBundleDisplayName = miOficinaDemo;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = concredito.miOficinaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D1FFC53E2B697E7C009A4BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDDU4P37Z;
+				INFOPLIST_KEY_CFBundleDisplayName = miOficinaDemo;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = concredito.miOficinaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1FFC5402B697E7C009A4BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDDU4P37Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "concredito.miOficinaDemo-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miOficinaDemo Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/miOficinaDemo Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D1FFC5412B697E7C009A4BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDDU4P37Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "concredito.miOficinaDemo-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miOficinaDemo Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/miOficinaDemo Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		D1FFC5432B697E7C009A4BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDDU4P37Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "concredito.miOficinaDemo-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "miOficinaDemo Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		D1FFC5442B697E7C009A4BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSDDU4P37Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "concredito.miOficinaDemo-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "miOficinaDemo Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1FFC5092B697E7A009A4BFF /* Build configuration list for PBXProject "miOficinaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC5362B697E7C009A4BFF /* Debug */,
+				D1FFC5372B697E7C009A4BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFC5382B697E7C009A4BFF /* Build configuration list for PBXNativeTarget "miOficinaDemo Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC5392B697E7C009A4BFF /* Debug */,
+				D1FFC53A2B697E7C009A4BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFC53C2B697E7C009A4BFF /* Build configuration list for PBXNativeTarget "miOficinaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC53D2B697E7C009A4BFF /* Debug */,
+				D1FFC53E2B697E7C009A4BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFC53F2B697E7C009A4BFF /* Build configuration list for PBXNativeTarget "miOficinaDemo Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC5402B697E7C009A4BFF /* Debug */,
+				D1FFC5412B697E7C009A4BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FFC5422B697E7C009A4BFF /* Build configuration list for PBXNativeTarget "miOficinaDemo Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FFC5432B697E7C009A4BFF /* Debug */,
+				D1FFC5442B697E7C009A4BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1FFC5062B697E7A009A4BFF /* Project object */;
+}
